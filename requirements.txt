@@ -1,0 +1,13 @@
+# Data generation
+setigen
+astropy
+numpy
+matplotlib
+
+# Few-shot / detectability (Ollama client)
+ollama
+
+# Fine-tuning (install inside the NGC container, in this order)
+# pip install unsloth timm trl pillow
+# pip install --upgrade "torchao>=0.16.0"
+# pip install "git+https://github.com/huggingface/transformers.git@main"

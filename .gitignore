@@ -1,0 +1,17 @@
+# Generated images and labels
+*.png
+!figures/*.png
+*.jsonl
+
+# Model checkpoints
+qwen35_finetuned/
+checkpoint-*/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
