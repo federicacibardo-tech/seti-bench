@@ -34,7 +34,7 @@ Three findings:
    Only three models are genuine detectors: Qwen3.5-9B (threshold ~SNR 13, 0% false
    positives), Qwen3.5-2B (~SNR 11, 10%), and Gemma 4B (~SNR 17, 0%).
 
-**Fine-tuning is promising but not yet production-ready.** The fine-tuned model
+3. **Fine-tuning is promising but not yet production-ready.** The fine-tuned model
 performs strongly in-distribution (94.7% on the simulated test, precision 100%,
 zero false positives), which shows the approach is viable. On real images,
 however, it does not yet generalise: the rendering of real cadences differs from
