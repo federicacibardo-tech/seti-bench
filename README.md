@@ -27,12 +27,8 @@ Three findings:
    one (Qwen3.5-9B: 100% in viridis). Working in viridis matches the real-data
    colormap with no accuracy loss.
 
-2. **Recovery is limited by signal width, not SNR.** Candidate recovery is flat
-   across SNR (differences within 2σ) but rises sharply with the signal's spectral
-   width. The limiting factor is the number of pixels the signal occupies for the
-   vision encoder, not its intensity.
 
-3. **Detection must be measured with a false-positive control.** In a fixed-width
+2. **Detection must be measured with a false-positive control.** In a fixed-width
    SNR-detectability test, four of seven models reach 100% recovery simply by
    answering "candidate" everywhere — they also flag 97–100% of pure-noise images.
    Only three models are genuine detectors: Qwen3.5-9B (threshold ~SNR 13, 0% false
